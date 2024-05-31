@@ -12,6 +12,7 @@ export { default as SliderPicker } from './components/slider/Slider'
 export { default as SwatchesPicker } from './components/swatches/Swatches'
 export { default as TwitterPicker } from './components/twitter/Twitter'
 export { default as GooglePicker } from './components/google/Google'
+export { default as ExcelPicker } from './components/excel/Excel'
 
 export { default as CustomPicker } from './components/common/ColorWrap'
 export { default as Alpha } from './components/common/Alpha'

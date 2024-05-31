@@ -1,11 +1,11 @@
-# [React Color](http://casesandberg.github.io/react-color/)
+# [React Color V2](http://casesandberg.github.io/react-color/)
 
 [![Npm Version][npm-version-image]][npm-version-url]
 [![Build Status][travis-svg]][travis-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-* **13 Different Pickers** - Sketch, Photoshop, Chrome and many more
+* **14 Different Pickers** - Sketch, Photoshop, Chrome, Excel and many more
 
 * **Make Your Own** - Use the building block components to make your own
 
@@ -18,23 +18,23 @@
 ## Installation & Usage
 
 ```sh
-npm install react-color --save
+npm install react-color-v2 --save
 ```
 
 ### Include the Component
 
 ```js
 import React from 'react'
-import { SketchPicker } from 'react-color'
+import { ExcelPicker } from 'react-color-v2'
 
 class Component extends React.Component {
 
   render() {
-    return <SketchPicker />
+    return <ExcelPicker />
   }
 }
 ```
-You can import `AlphaPicker` `BlockPicker` `ChromePicker` `CirclePicker` `CompactPicker` `GithubPicker` `HuePicker` `MaterialPicker` `PhotoshopPicker` `SketchPicker` `SliderPicker` `SwatchesPicker` `TwitterPicker` respectively.
+You can import `AlphaPicker` `BlockPicker` `ChromePicker` `CirclePicker` `CompactPicker` `GithubPicker` `HuePicker` `MaterialPicker` `PhotoshopPicker` `SketchPicker` `SliderPicker` `SwatchesPicker` `TwitterPicker` `ExcelPicker` respectively.
 
 > 100% inline styles via [ReactCSS](http://reactcss.com/)
 
@@ -45,4 +45,4 @@ You can import `AlphaPicker` `BlockPicker` `ChromePicker` `CirclePicker` `Compac
 [downloads-image]: http://img.shields.io/npm/dm/react-color.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=react-color
 [npm-version-image]: https://img.shields.io/npm/v/react-color.svg
-[npm-version-url]: https://www.npmjs.com/package/react-color
+[npm-version-url]: https://www.npmjs.com/package/react-color-v2
